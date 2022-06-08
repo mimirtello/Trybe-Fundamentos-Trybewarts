@@ -62,6 +62,12 @@ main {
   display: flex;
   align-self: row;
 }
+
 #emailCasa{
   display: flex;
+}
+
+#label-content{
+  display: flex;
+  flex-direction: column;
 }
