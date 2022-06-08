@@ -34,3 +34,11 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#NameLastName {
+  display: flex;
+}
+.input-lastname {
+ display: inline;
+}
+ 
