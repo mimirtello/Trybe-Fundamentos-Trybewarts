@@ -48,39 +48,43 @@ main {
   flex-direction: column;
 }
 
-.familia{
+.familia {
   display: flex;
   flex-direction: column;
 }
 
-.casas{
+.casas {
   display: flex;
   flex-direction: row;
 }
 
-#house{
+#house {
   display: flex;
   align-self: row;
 }
 
-#emailCasa{
+#emailCasa {
   display: flex;
 }
 
-#label-content{
-  display: flex;
-  flex-direction: column;
-}
-
-#label-rate{
-  display: flex;
-}
-
-.textarea{
+#label-content {
   display: flex;
   flex-direction: column;
 }
 
-#submit-btn{
-  width:70px;
+#label-rate {
+  display: flex;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+  width: 70px;
+}
+
+.rodape {
+  text-align: center;
 }
