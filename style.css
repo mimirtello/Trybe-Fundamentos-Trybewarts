@@ -43,3 +43,7 @@ main {
   display: inline;
 }
 
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
