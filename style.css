@@ -38,7 +38,8 @@ main {
 #NameLastName {
   display: flex;
 }
+
 .input-lastname {
- display: inline;
+  display: inline;
 }
- 
+
