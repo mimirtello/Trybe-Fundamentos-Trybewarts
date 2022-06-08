@@ -47,3 +47,21 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.familia{
+  display: flex;
+  flex-direction: column;
+}
+
+.casas{
+  display: flex;
+  flex-direction: row;
+}
+
+#house{
+  display: flex;
+  align-self: row;
+}
+#emailCasa{
+  display: flex;
+}
