@@ -75,3 +75,8 @@ main {
 #label-rate{
   display: flex;
 }
+
+.textarea{
+  display: flex;
+  flex-direction: column;
+}
