@@ -3,6 +3,8 @@ const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 const btnSubmit = document.querySelector('#submit-btn');
 const agreement = document.querySelector('#agreement');
+const textarea = document.querySelector('#textarea');
+let counter = document.querySelector('#counter');
 
 function validacao(event) {
   event.preventDefault();
@@ -21,6 +23,15 @@ function enviar(event) {
   }
 }
 
+// Bonus
+// Consultei o MDN para parseInt e input
+
+function contar() {
+  counter.innerText = 500 - parseInt(textarea.value.length, 10);
+}
+
 btn.addEventListener('click', validacao);
 
 agreement.addEventListener('click', enviar);
+
+textarea.addEventListener('input', contar);
