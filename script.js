@@ -4,7 +4,7 @@ const password = document.querySelector('#password');
 const btnSubmit = document.querySelector('#submit-btn');
 const agreement = document.querySelector('#agreement');
 const textarea = document.querySelector('#textarea');
-let counter = document.querySelector('#counter');
+const counter = document.querySelector('#counter');
 
 function validacao(event) {
   event.preventDefault();
